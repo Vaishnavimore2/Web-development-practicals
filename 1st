@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>student registraction form</title>
+    <style>
+        body {
+            background-color: antiquewhite;
+            width: 400px;
+            padding: 20px;
+            border: radius 10px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h2>student Registration Form</h2>
+    <div class="form-box" <form>
+        Username:<input type- "text" placeholder="Enter Your Username" required <br><br> Password:
+
+        <input type- "Password" required><br><br> Email:
+        <input type="email" required><br><br> Age:
+        <input type="number" min="1" max="100"><br><br> Date Of Birth:<input type="date"><br><br> Profile Picture:<input type="file>"><br><br> Gender:
+        <input type="radio" name="gender">Male
+        <input type="radio" name="gender" Female><br><br> Interests:
+        <input type="checkbox">coding
+        <input type="checkbox">Music><br><br> Country
+        <select name="selCountry">
+            <option value="IN">INDIA</option>
+            <option value="US">USA</option>
+            <option value="UK">UK</option>
+            <option value="JP">JAPAN</option>
+            </select><br><br>
+
+            Bio:<br>
+            <textarea placeholder="Tell us about yourself" rows="4" cols="40">
+
+            </textarea><br><br>
+
+
+             Favorite color:<input type="color"><br><br>
+            
+             Experience(years):<input type="range" min="0" max="20"><br><br>
+
+             
+             <input type="submit">
+             <input type="reset">
+            </form>
+        </div>
+
+
+
+</body>
+</html>
